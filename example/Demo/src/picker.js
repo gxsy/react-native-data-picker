@@ -1,9 +1,9 @@
 import { NativeModules, NativeAppEventEmitter, NativeEventEmitter, Platform } from "react-native";
-const { NativeAddressSelected } = NativeModules;
+const { NativeAddressSelected, EventEmitterManager } = NativeModules;
 
 const NativeEvent = null;
 if (Platform.OS == 'ios') {
-  NativeEvent = new NativeEventEmitter(IOSEventName);
+  NativeEvent = new NativeEventEmitter(EventEmitterManager);
 } else {
   NativeEvent = NativeAppEventEmitter;
 }
