@@ -22,7 +22,7 @@ export default class Demo extends Component {
         console.log(response);
         Picker.init({
           areas: JSON.stringify(response.data),
-          selectedArea: '[{"id":"3","name":"天津市","pid":"0"},{"id":"36","name":"县","pid":"3"},{"id":"412","name":"静海县","pid":"36"}]',
+          selectedArea: '',
           onPickerEvent: data => console.log(data),
         });
       })

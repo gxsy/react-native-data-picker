@@ -7,5 +7,4 @@ const instance = axios.create({
 
 export default {
   post: (url, data) => instance.post(url, data),
-
 };
