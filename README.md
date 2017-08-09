@@ -16,6 +16,7 @@ react native data picker
 |Name | Description | Type | Default|
 | --- | ----------- | ---- | ------ |
 |init         |init and pass parameters to picker      |     |   |
+|destroy      |destroy picker                          |     |   |
 |show         |show picker                             |     |   |
 
 ### Usage
@@ -87,6 +88,10 @@ react native data picker
           selectedValue: JSON.stringify(previouslySelectedValue),
           onPickerEvent: data => console.log(data)
         });
+      }
+
+      componentWillUnmount() {
+        Picker.destroy();
       }
 
       render() {
