@@ -88,6 +88,11 @@ public class NativeAddressSelectedModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void destroy() {
+        mDialog = null;
+    }
+
+    @ReactMethod
     public void show() {
         if (mDialog != null) {
             mDialog.setOnAddressSelectedListener(mAddressSelectedListener);
