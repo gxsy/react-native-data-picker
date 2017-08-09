@@ -8,7 +8,7 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 import Api from "./util/api";
-import Picker from "./picker";
+import Picker from "react-native-data-picker";
 
 export default class Demo extends Component {
   componentWillMount() {
