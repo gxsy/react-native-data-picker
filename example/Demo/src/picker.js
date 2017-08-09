@@ -34,5 +34,8 @@ export default {
   },
   show() {
     NativeAddressSelected.show();
+  },
+  destroy() {
+    NativeAddressSelected.destroy();
   }
 };

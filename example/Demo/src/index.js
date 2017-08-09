@@ -58,6 +58,10 @@ export default class Demo extends Component {
     });
   }
 
+  componentWillUnmount() {
+    Picker.destroy();
+  }
+
   render() {
     return (
       <View style={styles.container}>
