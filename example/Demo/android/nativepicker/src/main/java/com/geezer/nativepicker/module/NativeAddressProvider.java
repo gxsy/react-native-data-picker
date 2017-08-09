@@ -17,20 +17,18 @@ public class NativeAddressProvider implements AddressProvider {
     public static final String FIRST_PID = "0";
     private HashMap<String, List<AllAreas.Area>> mAreas;
 
-    public NativeAddressProvider(AllAreas allAreas) {
+    public NativeAddressProvider(List<AllAreas.Area> allAreas) {
 
         generatingAreaInformation(allAreas);
 
     }
 
-    private void generatingAreaInformation(AllAreas allAreas) {
+    private void generatingAreaInformation(List<AllAreas.Area> allAreas) {
         if (mAreas == null) {
             mAreas = new HashMap<>();
         }
-        if (allAreas != null && allAreas.data != null) {
-            List<AllAreas.Area> areas = allAreas.data;
-
-            for (AllAreas.Area area : areas) {
+        if (allAreas != null) {
+            for (AllAreas.Area area : allAreas) {
                 String key = area.parentId;
                 List<AllAreas.Area> areaList = mAreas.get(key);
                 if (null == areaList) {

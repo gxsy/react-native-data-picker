@@ -99,7 +99,9 @@ public class NativeAddressSelectedModule extends ReactContextBaseJavaModule {
     private void initDialog() {
         mDialog = new BottomDialog(getCurrentActivity());
         mDialog.setAddressProvider(mNativeAddressProvider);
-        mDialog.resetAddres(mDatas);
+        if (mDatas != null) {
+            mDialog.resetAddres(mDatas);
+        }
     }
 
     private void initResetAddres(String data) {
@@ -108,8 +110,8 @@ public class NativeAddressSelectedModule extends ReactContextBaseJavaModule {
     }
 
     private void initAddressProvider(String areas) {
-        AllAreas allAreas;
-        allAreas = GsonUtils.fromJsonString(areas, AllAreas.class);
+        List<AllAreas.Area> allAreas = GsonUtils.fromJsonString(areas, new TypeToken<List<AllAreas.Area>>() {
+        }.getType());
         mNativeAddressProvider = new NativeAddressProvider(allAreas);
     }
 
