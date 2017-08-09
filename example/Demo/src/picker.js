@@ -10,11 +10,21 @@ if (Platform.OS == 'ios') {
 
 const ADDRESS_SELECTED_EVENT_NAME = "OnAddressSelectedListener";
 
+
 export default {
+
+  /**
+   *
+   * @param {object} options
+   * @param {string} options.pickerData : All of the picker information.
+   * @param {string} options.selectedValue : Previously selected picker information.
+   * @param {function} options.onPickerEvent : Select to complete the listener event
+   *
+   */
   init(options) {
     NativeAddressSelected.init(
-      options.areas,
-      options.selectedArea
+      options.pickerData,
+      options.selectedValue
     );
     this.listener && this.listener.remove();
     this.listener = NativeEvent.addListener(
