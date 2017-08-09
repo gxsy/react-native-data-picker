@@ -3193,6 +3193,10 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-data-picker@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/react-native-data-picker/-/react-native-data-picker-0.0.1.tgz#cd87f3279b21e72689af393749e7b5b49d47dac1"
+
 react-native@0.47.1:
   version "0.47.1"
   resolved "https://registry.npmjs.org/react-native/-/react-native-0.47.1.tgz#b4a1f1e92a57ff5868de2bfa9d8ece3192635242"
