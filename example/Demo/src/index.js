@@ -44,9 +44,9 @@ export default class Demo extends Component {
     ];
 
     let previouslySelectedValue = [
-      { id: "3", name: "天津市", pid: "0" },
-      { id: "36", name: "县", pid: "3" },
-      { id: "412", name: "静海县", pid: "36" }
+      { id: 3, name: "天津市", pid: 0 },
+      { id: 36, name: "县", pid: 3 },
+      { id: 412, name: "静海县", pid: 36 }
     ];
 
     data = data.concat(testData1).concat(testData2);
