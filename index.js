@@ -25,7 +25,7 @@ export default {
    *
    */
   init(options) {
-    NativeAddressSelected.init(options.pickerData, options.selectedValue);
+    NativeDataPicker.init(options.pickerData, options.selectedValue);
     this.listener && this.listener.remove();
     this.listener = NativeEvent.addListener(
       ON_PICKER_EVENT,
@@ -33,9 +33,9 @@ export default {
     );
   },
   show() {
-    NativeAddressSelected.show();
+    NativeDataPicker.show();
   },
   destroy() {
-    NativeAddressSelected.destroy();
+    NativeDataPicker.destroy();
   }
 };
