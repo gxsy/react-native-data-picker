@@ -1,18 +1,21 @@
-import { NativeModules, NativeAppEventEmitter, NativeEventEmitter, Platform } from "react-native";
-const { NativeAddressSelected, EventEmitterManager } = NativeModules;
+import {
+  NativeModules,
+  NativeAppEventEmitter,
+  NativeEventEmitter,
+  Platform
+} from "react-native";
+const { NativeDataPicker, EventEmitterManager } = NativeModules;
 
 const NativeEvent = null;
-if (Platform.OS == 'ios') {
+if (Platform.OS == "ios") {
   NativeEvent = new NativeEventEmitter(EventEmitterManager);
 } else {
   NativeEvent = NativeAppEventEmitter;
 }
 
-const ADDRESS_SELECTED_EVENT_NAME = "OnAddressSelectedListener";
-
+const ON_PICKER_EVENT = "onPickerEvent";
 
 export default {
-
   /**
    *
    * @param {object} options
@@ -22,13 +25,10 @@ export default {
    *
    */
   init(options) {
-    NativeAddressSelected.init(
-      options.pickerData,
-      options.selectedValue
-    );
+    NativeAddressSelected.init(options.pickerData, options.selectedValue);
     this.listener && this.listener.remove();
     this.listener = NativeEvent.addListener(
-      ADDRESS_SELECTED_EVENT_NAME,
+      ON_PICKER_EVENT,
       options.onPickerEvent
     );
   },
