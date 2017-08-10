@@ -24,8 +24,8 @@ import java.util.List;
 
 public class NativeAddressSelectedModule extends ReactContextBaseJavaModule {
 
-    private static final String REACT_CLASS = "NativeAddressSelected";
-    private static final String ON_ADDRESS_SELECTED_LISTENER = "OnAddressSelectedListener";
+    private static final String REACT_CLASS = "NativeDataPicker";
+    private static final String ON_ADDRESS_SELECTED_LISTENER = "onPickerEvent";
     private OnAddressSelectedListener mAddressSelectedListener;
     private BottomDialog mDialog;
     private NativeAddressProvider mNativeAddressProvider;
