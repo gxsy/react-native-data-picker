@@ -9,8 +9,8 @@
 #import "BaseModel.h"
 
 @interface ProvinceModel : BaseModel
-@property (nonatomic,copy) NSNumber * parentId;
-@property (nonatomic,copy) NSNumber * areaId;
+@property (nonatomic,copy) NSString * parentId;
+@property (nonatomic,copy) NSString * areaId;
 @property (nonatomic,copy) NSString * areaName;
 @property (nonatomic,assign) BOOL  isSelected;
 @end

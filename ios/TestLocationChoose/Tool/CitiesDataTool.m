@@ -9,22 +9,14 @@
 #import "CitiesDataTool.h"
 #import "AddressItem.h"
 #import "ProvinceModel.h"
-#import "CityModel.h"
-#import "TownModel.h"
+
 
 @interface CitiesDataTool ()
 @property (nonatomic,strong) NSMutableArray * dataArray;
-@property (nonatomic,strong) NSMutableArray *pArr; //存储省份model
-@property (nonatomic,strong) NSMutableArray *cArr;
-@property (nonatomic,strong) NSMutableArray *tArr;
 @property (nonatomic,strong) NSMutableArray *provinceArr;//省份名字
 @property (nonatomic,strong) NSMutableArray *selectedArray;//记录选择
 @property (nonatomic,strong) NSMutableDictionary *totalDict;
 
-//最后获取到的省市县 model
-@property (strong, nonatomic)ProvinceModel *pModel;
-@property (strong, nonatomic)CityModel *cModel;
-@property (strong, nonatomic)TownModel *tModel;
 @end
 
 @implementation CitiesDataTool
@@ -90,17 +82,16 @@ static CitiesDataTool *shareInstance = nil;
    }
 }
 
--(NSArray *)QqueryAllRecordWithProviceID:(NSNumber *)ID{
-    NSLog(@"省份:%@",[self.totalDict objectForKey:ID]);
-   return [self.totalDict objectForKey:ID];
-}
--(NSArray *)QqueryAllRecordWithCityID:(NSNumber *)ID{
+-(NSArray *)QqueryAllRecordWithProviceID:(NSString *)ID{
     return [self.totalDict objectForKey:ID];
 }
--(NSArray *)QqueryAllRecordWithTownID:(NSNumber *)ID{
+-(NSArray *)QqueryAllRecordWithCityID:(NSString *)ID{
     return [self.totalDict objectForKey:ID];
 }
--(NSArray *)QqueryAllRecordWithStreetID:(NSNumber *)ID{
+-(NSArray *)QqueryAllRecordWithTownID:(NSString *)ID{
+    return [self.totalDict objectForKey:ID];
+}
+-(NSArray *)QqueryAllRecordWithStreetID:(NSString *)ID{
     return [self.totalDict objectForKey:ID];
 }
 

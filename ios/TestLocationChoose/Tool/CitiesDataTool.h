@@ -11,9 +11,9 @@
 @interface CitiesDataTool : NSObject
 + (instancetype)sharedManager;
 -(void)requestGetData:(NSString *)locationStr;
--(NSArray *)QqueryAllRecordWithProviceID:(NSNumber *)ID;
--(NSArray *)QqueryAllRecordWithCityID:(NSNumber *)ID;
--(NSArray *)QqueryAllRecordWithTownID:(NSNumber *)ID;
--(NSArray *)QqueryAllRecordWithStreetID:(NSNumber *)ID;
+-(NSArray *)QqueryAllRecordWithProviceID:(NSString *)ID;
+-(NSArray *)QqueryAllRecordWithCityID:(NSString *)ID;
+-(NSArray *)QqueryAllRecordWithTownID:(NSString *)ID;
+-(NSArray *)QqueryAllRecordWithStreetID:(NSString *)ID;
 - (NSString *)queryAllRecordWithAreaCode:(NSString *) areaCode;
 @end

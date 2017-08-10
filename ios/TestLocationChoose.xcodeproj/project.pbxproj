@@ -16,8 +16,6 @@
 		35469C9D1F3448DA0042486B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C911F3448DA0042486B /* ViewController.m */; };
 		35CF77FA1F383D7F0010A2DC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF77F91F383D7F0010A2DC /* BaseModel.m */; };
 		35CF77FD1F383DB00010A2DC /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF77FC1F383DB00010A2DC /* ProvinceModel.m */; };
-		35CF78001F383E200010A2DC /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF77FF1F383E200010A2DC /* CityModel.m */; };
-		35CF78031F383E290010A2DC /* TownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF78021F383E290010A2DC /* TownModel.m */; };
 		35CF787E1F39B90B0010A2DC /* EventEmitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF787D1F39B90B0010A2DC /* EventEmitterManager.m */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +51,6 @@
 		35CF77F91F383D7F0010A2DC /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		35CF77FB1F383DB00010A2DC /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
 		35CF77FC1F383DB00010A2DC /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
-		35CF77FE1F383E200010A2DC /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
-		35CF77FF1F383E200010A2DC /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
-		35CF78011F383E290010A2DC /* TownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TownModel.h; sourceTree = "<group>"; };
-		35CF78021F383E290010A2DC /* TownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TownModel.m; sourceTree = "<group>"; };
 		35CF787C1F39B90B0010A2DC /* EventEmitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventEmitterManager.h; sourceTree = "<group>"; };
 		35CF787D1F39B90B0010A2DC /* EventEmitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEmitterManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,10 +121,6 @@
 				35CF77F91F383D7F0010A2DC /* BaseModel.m */,
 				35CF77FB1F383DB00010A2DC /* ProvinceModel.h */,
 				35CF77FC1F383DB00010A2DC /* ProvinceModel.m */,
-				35CF77FE1F383E200010A2DC /* CityModel.h */,
-				35CF77FF1F383E200010A2DC /* CityModel.m */,
-				35CF78011F383E290010A2DC /* TownModel.h */,
-				35CF78021F383E290010A2DC /* TownModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,14 +210,12 @@
 				35469C951F3448DA0042486B /* AddressView.m in Sources */,
 				35CF787E1F39B90B0010A2DC /* EventEmitterManager.m in Sources */,
 				35469C921F3448DA0042486B /* UIView+Frame.m in Sources */,
-				35CF78001F383E200010A2DC /* CityModel.m in Sources */,
 				35469C931F3448DA0042486B /* AddressItem.m in Sources */,
 				35469C9D1F3448DA0042486B /* ViewController.m in Sources */,
 				35CF77FA1F383D7F0010A2DC /* BaseModel.m in Sources */,
 				35469C9C1F3448DA0042486B /* CitiesDataTool.m in Sources */,
 				35CF77FD1F383DB00010A2DC /* ProvinceModel.m in Sources */,
 				35469C961F3448DA0042486B /* ChooseLocationView.m in Sources */,
-				35CF78031F383E290010A2DC /* TownModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
