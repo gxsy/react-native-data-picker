@@ -21,7 +21,7 @@
 @end
 
 @implementation ViewController
-RCT_EXPORT_MODULE(RNLocation);
+RCT_EXPORT_MODULE(NativeDataPicker);
 
 -(instancetype)init{
     if (self) {
@@ -39,9 +39,7 @@ RCT_EXPORT_METHOD(init:(NSString *)info area:(NSString *)areaStr){
     }
 
     //测试数据
-    self.chooseLocationView.address = @"广东省 广州市 越秀区";
-    self.addresslabel.text = @"广东省 广州市 越秀区";
-    NSString *str = @"";
+       NSString *str = @"";
     if (str) {
 //        //测试
 //        self.chooseLocationView.areaCode = @"[\n {\n  \"parentId\":0,\n  \"areaName\":\"天津市\",\n  \"areaId\":3\n },{\n  \"parentId\":3,\n  \"areaName\":\"市辖区\",\n  \"areaId\":35\n },{\n  \"parentId\":35,\n  \"areaName\":\"和平区\",\n  \"areaId\":396\n },]";
@@ -51,13 +49,13 @@ RCT_EXPORT_METHOD(init:(NSString *)info area:(NSString *)areaStr){
     
     
 }
-RCT_EXPORT_METHOD(dellocView){
+RCT_EXPORT_METHOD(destroy){
     self.chooseLocationView = nil;
     self.cover = nil;
     
 }
 
-RCT_EXPORT_METHOD(chooseLocation){
+RCT_EXPORT_METHOD(show){
 //    dispatch_async(dispatch_get_main_queue(), ^{
 //        
 //    });

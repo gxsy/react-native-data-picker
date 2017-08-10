@@ -12,11 +12,6 @@
 		35469C941F3448DA0042486B /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C7A1F3448DA0042486B /* AddressTableViewCell.m */; };
 		35469C951F3448DA0042486B /* AddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C7D1F3448DA0042486B /* AddressView.m */; };
 		35469C961F3448DA0042486B /* ChooseLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C7F1F3448DA0042486B /* ChooseLocationView.m */; };
-		35469C971F3448DA0042486B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C821F3448DA0042486B /* FMDatabase.m */; };
-		35469C981F3448DA0042486B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C841F3448DA0042486B /* FMDatabaseAdditions.m */; };
-		35469C991F3448DA0042486B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C861F3448DA0042486B /* FMDatabasePool.m */; };
-		35469C9A1F3448DA0042486B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C881F3448DA0042486B /* FMDatabaseQueue.m */; };
-		35469C9B1F3448DA0042486B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C8B1F3448DA0042486B /* FMResultSet.m */; };
 		35469C9C1F3448DA0042486B /* CitiesDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C8F1F3448DA0042486B /* CitiesDataTool.m */; };
 		35469C9D1F3448DA0042486B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35469C911F3448DA0042486B /* ViewController.m */; };
 		35CF77FA1F383D7F0010A2DC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF77F91F383D7F0010A2DC /* BaseModel.m */; };
@@ -50,18 +45,6 @@
 		35469C7D1F3448DA0042486B /* AddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressView.m; sourceTree = "<group>"; };
 		35469C7E1F3448DA0042486B /* ChooseLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLocationView.h; sourceTree = "<group>"; };
 		35469C7F1F3448DA0042486B /* ChooseLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLocationView.m; sourceTree = "<group>"; };
-		35469C811F3448DA0042486B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		35469C821F3448DA0042486B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		35469C831F3448DA0042486B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		35469C841F3448DA0042486B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		35469C851F3448DA0042486B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		35469C861F3448DA0042486B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		35469C871F3448DA0042486B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		35469C881F3448DA0042486B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		35469C891F3448DA0042486B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		35469C8A1F3448DA0042486B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		35469C8B1F3448DA0042486B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		35469C8C1F3448DA0042486B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35469C8E1F3448DA0042486B /* CitiesDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesDataTool.h; sourceTree = "<group>"; };
 		35469C8F1F3448DA0042486B /* CitiesDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesDataTool.m; sourceTree = "<group>"; };
 		35469C901F3448DA0042486B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -110,7 +93,6 @@
 			children = (
 				35469C711F3448DA0042486B /* Category */,
 				35469C741F3448DA0042486B /* ChooseLocation */,
-				35469C801F3448DA0042486B /* fmdb */,
 				35469C8D1F3448DA0042486B /* Tool */,
 				35469C901F3448DA0042486B /* ViewController.h */,
 				35469C911F3448DA0042486B /* ViewController.m */,
@@ -164,25 +146,6 @@
 				35469C7F1F3448DA0042486B /* ChooseLocationView.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		35469C801F3448DA0042486B /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				35469C811F3448DA0042486B /* FMDatabase.h */,
-				35469C821F3448DA0042486B /* FMDatabase.m */,
-				35469C831F3448DA0042486B /* FMDatabaseAdditions.h */,
-				35469C841F3448DA0042486B /* FMDatabaseAdditions.m */,
-				35469C851F3448DA0042486B /* FMDatabasePool.h */,
-				35469C861F3448DA0042486B /* FMDatabasePool.m */,
-				35469C871F3448DA0042486B /* FMDatabaseQueue.h */,
-				35469C881F3448DA0042486B /* FMDatabaseQueue.m */,
-				35469C891F3448DA0042486B /* FMDB.h */,
-				35469C8A1F3448DA0042486B /* FMResultSet.h */,
-				35469C8B1F3448DA0042486B /* FMResultSet.m */,
-				35469C8C1F3448DA0042486B /* Info.plist */,
-			);
-			path = fmdb;
 			sourceTree = "<group>";
 		};
 		35469C8D1F3448DA0042486B /* Tool */ = {
@@ -257,18 +220,13 @@
 				35469C951F3448DA0042486B /* AddressView.m in Sources */,
 				35CF787E1F39B90B0010A2DC /* EventEmitterManager.m in Sources */,
 				35469C921F3448DA0042486B /* UIView+Frame.m in Sources */,
-				35469C971F3448DA0042486B /* FMDatabase.m in Sources */,
 				35CF78001F383E200010A2DC /* CityModel.m in Sources */,
-				35469C9B1F3448DA0042486B /* FMResultSet.m in Sources */,
 				35469C931F3448DA0042486B /* AddressItem.m in Sources */,
 				35469C9D1F3448DA0042486B /* ViewController.m in Sources */,
 				35CF77FA1F383D7F0010A2DC /* BaseModel.m in Sources */,
 				35469C9C1F3448DA0042486B /* CitiesDataTool.m in Sources */,
-				35469C991F3448DA0042486B /* FMDatabasePool.m in Sources */,
-				35469C981F3448DA0042486B /* FMDatabaseAdditions.m in Sources */,
 				35CF77FD1F383DB00010A2DC /* ProvinceModel.m in Sources */,
 				35469C961F3448DA0042486B /* ChooseLocationView.m in Sources */,
-				35469C9A1F3448DA0042486B /* FMDatabaseQueue.m in Sources */,
 				35CF78031F383E290010A2DC /* TownModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

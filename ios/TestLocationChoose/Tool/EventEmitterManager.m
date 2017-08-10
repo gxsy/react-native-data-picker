@@ -9,7 +9,7 @@
 #import "EventEmitterManager.h"
 #import <React/RCTEventDispatcher.h>
 #import <RCTLog.h>
-NSString *const OnAddressSelectedListener  = @"OnAddressSelectedListener";
+NSString *const OnAddressSelectedListener  = @"onPickerEvent";
 @implementation EventEmitterManager
 
 RCT_EXPORT_MODULE();

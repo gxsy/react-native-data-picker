@@ -35,8 +35,10 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemoTests.m */; };
+		35CF79051F3B1EBE0010A2DC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CF79041F3B1EBE0010A2DC /* libsqlite3.dylib */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		95CE5AD502734B278AE45641 /* libTestLocationChoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C210C5E56AA494384D29768 /* libTestLocationChoose.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,33 +140,12 @@
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
-		35CF78CD1F3B19AD0010A2DC /* PBXContainerItemProxy */ = {
+		35CF79011F3B1E170010A2DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */;
+			containerPortal = 584D4B252BE143ED9C5806C0 /* TestLocationChoose.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 13B07F961A680F5B00A75B9A;
-			remoteInfo = TestBridge;
-		};
-		35CF78CF1F3B19AD0010A2DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 00E356EE1AD99517003FC87E;
-			remoteInfo = TestBridgeTests;
-		};
-		35CF78D11F3B19AD0010A2DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D02E47B1E0B4A5D006451C7;
-			remoteInfo = "TestBridge-tvOS";
-		};
-		35CF78D31F3B19AD0010A2DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D02E4901E0B4A5D006451C7;
-			remoteInfo = "TestBridge-tvOSTests";
+			remoteGlobalIDString = 35469C651F3448370042486B;
+			remoteInfo = TestLocationChoose;
 		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -309,10 +290,12 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Demo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Demo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CF79041F3B1EBE0010A2DC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		584D4B252BE143ED9C5806C0 /* TestLocationChoose.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = TestLocationChoose.xcodeproj; path = "../node_modules/react-native-data-picker/ios/TestLocationChoose.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = TestBridge.xcodeproj; path = "../node_modules/react-native-data-picker/ios/TestBridge.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		9C210C5E56AA494384D29768 /* libTestLocationChoose.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTestLocationChoose.a; sourceTree = "<group>"; };
 		C5DFD4A15BFC41F1A7290922 /* libRCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTActionSheet.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CF79051F3B1EBE0010A2DC /* libsqlite3.dylib in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -341,6 +325,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				20285F4546B0469DA8AB537D /* libRCTActionSheet.a in Frameworks */,
+				95CE5AD502734B278AE45641 /* libTestLocationChoose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,15 +464,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35CF78A21F3B19AD0010A2DC /* Products */ = {
+		35CF78E11F3B1E170010A2DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35CF78CE1F3B19AD0010A2DC /* TestBridge.app */,
-				35CF78D01F3B19AD0010A2DC /* TestBridgeTests.xctest */,
-				35CF78D21F3B19AD0010A2DC /* TestBridge-tvOS.app */,
-				35CF78D41F3B19AD0010A2DC /* TestBridge-tvOSTests.xctest */,
+				35CF79021F3B1E170010A2DC /* libTestLocationChoose.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		35CF79031F3B1EBE0010A2DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35CF79041F3B1EBE0010A2DC /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -522,7 +512,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */,
+				584D4B252BE143ED9C5806C0 /* TestLocationChoose.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -543,6 +533,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				35CF79031F3B1EBE0010A2DC /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -715,8 +706,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 35CF78A21F3B19AD0010A2DC /* Products */;
-					ProjectRef = 78036F6EB53A48D296A6A532 /* TestBridge.xcodeproj */;
+					ProductGroup = 35CF78E11F3B1E170010A2DC /* Products */;
+					ProjectRef = 584D4B252BE143ED9C5806C0 /* TestLocationChoose.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -814,32 +805,11 @@
 			remoteRef = 35CF78C71F3B19AD0010A2DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		35CF78CE1F3B19AD0010A2DC /* TestBridge.app */ = {
+		35CF79021F3B1E170010A2DC /* libTestLocationChoose.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = TestBridge.app;
-			remoteRef = 35CF78CD1F3B19AD0010A2DC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		35CF78D01F3B19AD0010A2DC /* TestBridgeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = TestBridgeTests.xctest;
-			remoteRef = 35CF78CF1F3B19AD0010A2DC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		35CF78D21F3B19AD0010A2DC /* TestBridge-tvOS.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "TestBridge-tvOS.app";
-			remoteRef = 35CF78D11F3B19AD0010A2DC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		35CF78D41F3B19AD0010A2DC /* TestBridge-tvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "TestBridge-tvOSTests.xctest";
-			remoteRef = 35CF78D31F3B19AD0010A2DC /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = libTestLocationChoose.a;
+			remoteRef = 35CF79011F3B1E170010A2DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
@@ -1102,12 +1072,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1127,12 +1099,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1153,6 +1127,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1174,6 +1149,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1202,11 +1178,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = "Demo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1236,11 +1214,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-data-picker/ios/TestLocationChoose/**",
 				);
 				INFOPLIST_FILE = "Demo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1271,6 +1251,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1295,6 +1276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Demo-tvOSTests";
