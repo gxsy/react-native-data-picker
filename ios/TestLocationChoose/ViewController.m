@@ -38,11 +38,7 @@ RCT_EXPORT_METHOD(init:(NSString *)info area:(NSString *)areaStr){
     [[CitiesDataTool sharedManager] requestGetData:info]; 
     }
 
-    //测试数据
-       NSString *str = @"";
-    if (str) {
-//        //测试
-//        self.chooseLocationView.areaCode = @"[\n {\n  \"parentId\":0,\n  \"areaName\":\"天津市\",\n  \"areaId\":3\n },{\n  \"parentId\":3,\n  \"areaName\":\"市辖区\",\n  \"areaId\":35\n },{\n  \"parentId\":35,\n  \"areaName\":\"和平区\",\n  \"areaId\":396\n },]";
+    if (areaStr) {
         self.chooseLocationView.areaCode = areaStr;
     }
     

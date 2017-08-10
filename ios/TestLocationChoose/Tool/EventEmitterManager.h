@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RCTEventEmitter.h>
+#import <React/RCTEventEmitter.h>
 #import <RCTBridgeModule.h>
 @interface EventEmitterManager : RCTEventEmitter<RCTBridgeModule>
 -(void)postNotificationEvent:(NSString *)jsonStr;

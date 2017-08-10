@@ -368,14 +368,7 @@ static  CGFloat  const  kHYTopTabbarHeight = 30; //地址标签栏的高度
 #pragma mark - 开始就有地址时.
 
 - (void)setAreaCode:(NSString *)areaCode{
-    NSLog(@"currentTread:%@",[NSThread currentThread]);
     dispatch_async(dispatch_get_main_queue(), ^{
-        NSLog(@"currentTread:%@",[NSThread currentThread]);
-        
-    /*
-     [{"areaId":"5","areaName":"山西省","parentId":"0"},{"id":"50","name":"阳泉市","pid":"5"},{"id":"621","name":"城区","pid":"50"}]
-     */
-       
     _areaCode = areaCode;
     NSLog(@"%@",self.areaCode);
     //2.1 添加市级别,地区级别列表
