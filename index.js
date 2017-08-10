@@ -4,7 +4,7 @@ import {
   NativeEventEmitter,
   Platform
 } from "react-native";
-const { NativeAddressSelected, EventEmitterManager } = NativeModules;
+const { NativeDataPicker, EventEmitterManager } = NativeModules;
 
 const NativeEvent = null;
 if (Platform.OS == "ios") {
@@ -13,7 +13,7 @@ if (Platform.OS == "ios") {
   NativeEvent = NativeAppEventEmitter;
 }
 
-const ADDRESS_SELECTED_EVENT_NAME = "OnAddressSelectedListener";
+const ON_PICKER_EVENT = "onPickerEvent";
 
 export default {
   /**
@@ -28,7 +28,7 @@ export default {
     NativeAddressSelected.init(options.pickerData, options.selectedValue);
     this.listener && this.listener.remove();
     this.listener = NativeEvent.addListener(
-      ADDRESS_SELECTED_EVENT_NAME,
+      ON_PICKER_EVENT,
       options.onPickerEvent
     );
   },
